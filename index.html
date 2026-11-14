@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tap.Giving | Custom NFC Tap-to-Give Discs for Churches and Organizations</title>
+<meta name="description" content="Tap.Giving makes custom NFC tap-to-give discs for churches and organizations. A visitor taps a disc with their phone and lands on your giving page. No app needed.">
+<style>
+  :root{
+    --ink:#14213d; --ink2:#3c4a63; --paper:#fbfaf7; --card:#ffffff;
+    --gold:#e8a33d; --gold-dark:#b97a1e; --line:#e5e0d5; --blue:#1d4ed8;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--paper);color:var(--ink);line-height:1.55}
+  a{color:var(--blue)}
+  .wrap{max-width:880px;margin:0 auto;padding:0 20px}
+  header{border-bottom:1px solid var(--line);background:var(--card)}
+  .nav{display:flex;align-items:center;justify-content:space-between;padding:14px 0}
+  .brand{font-weight:800;font-size:22px;letter-spacing:-0.02em;color:var(--ink);text-decoration:none}
+  .brand span{color:var(--gold-dark)}
+  .nav nav a{margin-left:18px;color:var(--ink2);text-decoration:none;font-size:15px}
+  .nav nav a:hover{color:var(--ink);text-decoration:underline}
+  .hero{padding:56px 0 8px;text-align:center}
+  .disc{width:92px;height:92px;border-radius:50%;margin:0 auto 22px;background:radial-gradient(circle at 35% 30%,#2a3c5f,var(--ink));color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:15px;letter-spacing:0.04em;box-shadow:0 10px 24px rgba(20,33,61,.25);border:3px solid var(--gold)}
+  h1{font-size:40px;line-height:1.15;margin:0 0 14px;letter-spacing:-0.02em}
+  .lede{font-size:19px;color:var(--ink2);max-width:640px;margin:0 auto 26px}
+  .cta{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-bottom:10px}
+  .btn{display:inline-block;padding:13px 22px;border-radius:10px;text-decoration:none;font-weight:700;font-size:16px}
+  .btn-primary{background:var(--gold);color:#231600}
+  .btn-primary:hover{background:#f0b356}
+  .btn-ghost{background:var(--card);color:var(--ink);border:1px solid var(--line)}
+  .btn-ghost:hover{border-color:var(--ink2)}
+  section{padding:34px 0}
+  h2{font-size:24px;margin:0 0 14px;letter-spacing:-0.01em}
+  .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px}
+  .card h3{margin:0 0 6px;font-size:16px}
+  .card p{margin:0;color:var(--ink2);font-size:15px}
+  .num{display:inline-flex;width:26px;height:26px;border-radius:50%;background:var(--ink);color:#fff;align-items:center;justify-content:center;font-size:14px;font-weight:700;margin-bottom:10px}
+  table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+  th,td{padding:12px 16px;text-align:left;font-size:16px}
+  th{background:var(--ink);color:#fff}
+  tr+tr td{border-top:1px solid var(--line)}
+  .facts{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+  .fact{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+  .fact strong{display:block;font-size:16px;margin-bottom:2px}
+  .fact span{color:var(--ink2);font-size:15px}
+  .agent{background:var(--ink);color:#eef1f7;border-radius:14px;padding:26px}
+  .agent h2{color:#fff}
+  .agent p{color:#c6cede}
+  .agent a{color:#ffd489}
+  code{background:rgba(255,255,255,.12);padding:2px 7px;border-radius:6px;font-size:14px}
+  footer{border-top:1px solid var(--line);padding:24px 0 40px;color:var(--ink2);font-size:14px}
+  footer a{color:var(--ink2)}
+  @media (max-width:640px){
+    h1{font-size:30px}
+    .steps,.facts{grid-template-columns:1fr}
+    .nav nav a{margin-left:12px;font-size:14px}
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="https://tap.giving">Tap<span>.</span>Giving</a>
+    <nav>
+      <a href="https://tap.giving/pricing">Pricing</a>
+      <a href="https://tap.giving/how-it-works">How it works</a>
+      <a href="https://tap.giving/mcp">For agents</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="hero">
+    <div class="disc">TAP</div>
+    <h1>Custom NFC tap-to-give discs for churches and organizations</h1>
+    <p class="lede">A visitor taps a disc with their phone and lands on your giving page. No app to install, no QR code to hunt for, and no subscription fee from us.</p>
+    <div class="cta">
+      <a class="btn btn-primary" href="https://tap.giving">Visit tap.giving</a>
+      <a class="btn btn-ghost" href="https://tap.giving/mcp">Design with the MCP server</a>
+    </div>
+  </div>
+
+  <section>
+    <h2>How it works</h2>
+    <div class="steps">
+      <div class="card">
+        <span class="num">1</span>
+        <h3>Order your discs</h3>
+        <p>Pick a shape, send your artwork, and approve the proof. Discs carry your design, printed edge to edge.</p>
+      </div>
+      <div class="card">
+        <span class="num">2</span>
+        <h3>Place them where people sit</h3>
+        <p>Pew backs, chair backs, tables, and welcome areas. The disc stays put and works with a single tap.</p>
+      </div>
+      <div class="card">
+        <span class="num">3</span>
+        <h3>Change the destination any time</h3>
+        <p>Every disc includes the free Redirect Dashboard. Point a disc at a new page in seconds, as often as you like.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Pricing</h2>
+    <table>
+      <tr><th>Quantity</th><th>Price per disc</th></tr>
+      <tr><td>100 to 199</td><td>$5.00</td></tr>
+      <tr><td>200 to 399</td><td>$4.00</td></tr>
+      <tr><td>400 or more</td><td>$3.50</td></tr>
+    </table>
+    <p style="color:var(--ink2);font-size:15px">Full pricing and ordering live at <a href="https://tap.giving/pricing">tap.giving/pricing</a>.</p>
+  </section>
+
+  <section>
+    <h2>The facts</h2>
+    <div class="facts">
+      <div class="fact"><strong>Minimum order: 100 discs</strong><span>One design per order, in the shape you choose.</span></div>
+      <div class="fact"><strong>Free shipping</strong><span>Every order ships free.</span></div>
+      <div class="fact"><strong>30-day money-back guarantee</strong><span>If the discs are not right for your church, send them back within 30 days.</span></div>
+      <div class="fact"><strong>Free Redirect Dashboard</strong><span>Included with every disc, uncapped. Change where a disc points in seconds.</span></div>
+      <div class="fact"><strong>Hardware only</strong><span>We make the discs. Your giving platform stays the same, and the disc points at the giving page you already use.</span></div>
+      <div class="fact"><strong>Works with any phone</strong><span>Modern phones read the disc with a tap. No app needed on the visitor's phone.</span></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="agent">
+      <h2>For AI agents: the NFC Tap Builder</h2>
+      <p>Tap.Giving runs a hosted MCP server, the NFC Tap Builder, at <code>https://tap.giving/mcp</code>. An agent can design a disc with a church or organization's own logo, produce print-ready artwork, and place an order. Discovery, quotes, product facts, the artwork spec, and ordering all work with no key and no login, at any point.</p>
+      <p><a href="https://tap.giving/mcp">Open the MCP endpoint</a> &nbsp;|&nbsp; <a href="https://github.com/Tap-Giving/tap-giving-mcp">Read the spec in the public repo</a></p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    Tap.Giving, Houston, Texas. Questions: <a href="mailto:hello@tap.giving">hello@tap.giving</a> or (832) 510-8788.
+    Main site: <a href="https://tap.giving">tap.giving</a>.
+  </div>
+</footer>
+</body>
+</html>
